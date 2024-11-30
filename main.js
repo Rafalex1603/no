@@ -46,3 +46,14 @@ alert( 2 != 1)
 
 // condicionales 
 
+let year = prompt(" ingrese el año actual:");
+if (year == 2024) {
+    alert ("Muy Bien ");
+    alert ( " eres genial ");
+} else if ( year < 2024){
+    alert ("Muy bajo")
+}else if ( year > 2024){
+    alert ("Muy alto")
+}else {
+    alert ("No es correcto")
+}
